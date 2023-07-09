@@ -2,26 +2,86 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastre-se</title>
+    <link rel="shortcut icon" href="/imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/paginaCadastro.css">
+    <title>Cadastro InfoInvest</title>
 </head>
 <body>
     <header>
+        <!--Seção de apresentação e login-->
+        <section id="section-login">
+
+            <div id="brand-infoinvest">
+                <img id="logo" src="/imagens/logo.png" alt="logo da marca infoinvest">
+                <div id="section-login-tittle">
+                    <h1>BOL$O</h1>
+                    <h1>EM ORDEM</h1>
+                </div>
+            </div>
+    
+            <div id="presentation">
+                <h2 id="presentation-tittle" >Seja bem vindo!</h2>
+                <p id="presentation-paragraph">Inicie uma nova jornada financeira realizando um controle de gastos.</p>
+                <p id="presentation-paragraph">Já possui uma conta? Então basta clicar no botão abaixo.</p>
+            </div>
+    
+            <div id="button">
+                <a id="link-login" href="/html/paginaEntrar.html"><button id="button-login">Entrar</button></a>
+                
+            </div>
+    
+        </section>
 
     </header>
+
     <main>
-        <form action="">
-            <div>
-                <input type="text">
-                <input type="text">
-            </div>
-            <input type="email">
-            <input type="text">
-        </form>
-        <div>
-            <button>Cadastrar</button>
-            <p>Já tem uma conta? <a href="paginaEntrar.html">Clique Aqui</a></p>
-        </div>
+        <section id="user-register">
+            <!--Apresentação de registro-->
+            <section id="presentation-register">
+                <div>
+                    <h3 id="presentation-register-title">
+                        Crie sua conta
+                    </h3>
+                    <p id="presentation-register-paragraph">
+                        Preencha todos os campos
+                    </p>
+                </div>
+            </section>
+            <!--Formulário de cadastro-->
+    
+            <form id="form-user">
+                <fieldset id="user-fullname">
+                    <div id="div-user-name">
+                        <label for="user-name"></label>
+                        <input type="text" name="user-name" id="user-name"
+                        placeholder="Nome*">
+                    </div>
+                    <div id="div-firsh-name">
+                        <label for="firsh-name"></label>
+                        <input type="text" name="firsh-name" id="firsh-name" placeholder="Sobrenome*">
+                    </div>
+                </fieldset>
+    
+                <div class="user-data">
+                    <label for="user-password"></label>
+                    <input type="email" name="user-email" id="user-email" placeholder="Email Preferido*">
+                </div>
+    
+                <div class="user-data">
+                    <label for="user-password"></label>
+                    <input type="password" name="user-password" id="user-password" placeholder="Senha*">
+    
+                </div>
+    
+                <div class="user-data">
+                    <a href="confirmation/confirmation.html" id="link-user-register"><button id="button-user-register">Cadastrar</button></a>
+                    
+                </div>
+            </form>
+        </section>    
 
     </main>
 </body>
