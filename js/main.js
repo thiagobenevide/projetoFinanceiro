@@ -1,26 +1,28 @@
-console.log("Entrando na função principal")
+import { paginaCadastroController } from "./controller/paginaCadastroController.js"
 
-const {Poll} = require('pg')
+import { paginaEntrar } from "./controller/paginaEntrar.js"
 
-const poll = new Poll({
-    host: 'containers-us-west-8.railway.app',
-    database: 'railway',
-    user: 'root',
-    password: '1UKWn9z3EkHHTBV0tlEw',
-    port: 7716,
-    ssl:{
-        rejectUnauthorized: false
-    }
+/*Pagina de Cadastro*/ 
+var botaoCadastro = document.querySelector('#button-user-register')
+
+botaoCadastro.addEventListener('click', ()=>{
+    let nome = document.querySelector('#user-name').value
+    let sobrenome = document.querySelector('#firsh-name').value
+    let email = document.querySelector('#user-email').value
+    let senha = document.querySelector('#user-password').value
+    let pagCadastroController = new paginaCadastroController()
+    window.alert(pagCadastroController.criarUsuario(nome, sobrenome, email, senha))
 })
 
+/*Pagina Entrar*/
 
-poll.query('SELECT * FROM usuarios', (error, results)=>
-{
-    if(error){
-        console.error("Erro ao executar a consulta: ", error)
-    }
-    else{
-        console.log("Resultados da consulta: ", results.rows)
-    }
+var botaoEntrar =  document.querySelector('#button-login')
+botaoEntrar.addEventListener('click', ()=>{
+    let email = document.querySelector('#login-email') 
+    let senha = document.querySelector('login-password')
+    let pagEntrar = new paginaEntrar()
+    windows.alert(pagEntrar.validarEntrada(email, senha))
+
 })
+
 
