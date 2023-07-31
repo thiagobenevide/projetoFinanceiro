@@ -1,0 +1,10 @@
+.background{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: rgb(2, 2, 83);
+    color: white;
+    font-family: "Poppins";
+}
