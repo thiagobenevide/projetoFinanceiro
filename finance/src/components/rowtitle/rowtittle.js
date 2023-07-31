@@ -8,6 +8,7 @@ export default function RowTitle({type}){
             <h3>Empresa/Serviço</h3>
             <h3>Descrição</h3>
             <h3>Valor R$</h3>
+            <h3>Status</h3>
         </div>
     )
 }

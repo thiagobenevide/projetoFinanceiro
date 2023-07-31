@@ -13,7 +13,7 @@ export default function LoginPage(){
                     <Input type='email' placeholder="Seu e-mail principal"></Input>
                     <Input type='password' placeholder="Sua Senha"></Input>
                     <Button>Entrar</Button>
-                    <Link className={StyleCard.link} href="/singin">Ainda não possui conta?</Link>
+                    <Link className={StyleCard.link} href="/singin">Ainda não possui conta? Clique aqui!</Link>
                     </form>
             </LoginCard>
         </div>

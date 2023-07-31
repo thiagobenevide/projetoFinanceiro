@@ -1,0 +1,42 @@
+.revenue{
+    background-color: var(--backgroudColorTertiary);
+    transition: transform 0.3s;
+    
+}
+
+.revenue:hover{
+    transform: scale(1.05);
+}
+
+.expese{
+    background-color: var(--backgroudColorSextenary);
+    transition: transform 0.3s;
+}
+
+
+.expese:hover{
+    transform: scale(1.05);
+}
+
+.expese, .revenue{
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.575) ;
+    cursor: pointer;
+
+}
+
+.background{
+    display: flex;
+    flex-direction: row;
+    align-items:start;
+    justify-content:  left;
+    gap: 50px;
+}
+
+.title{
+    font-family: "Poppins";
+    color: var(--colorFontPrincipal);
+}

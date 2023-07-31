@@ -40,3 +40,14 @@ a {
   src: url(../fonts/Poppins-Light.ttf);
   src: url(../fonts/Poppins-Regular.ttf);
 }
+
+html ::-webkit-scrollbar {
+  width: 7px;
+}
+html ::-webkit-scrollbar-thumb {
+  border-radius: 80px;
+  background: var(--backgroudColorTertiary);
+}
+html ::-webkit-scrollbar-track {
+  background: #ededed;
+}

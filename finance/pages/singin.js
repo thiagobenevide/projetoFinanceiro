@@ -50,7 +50,7 @@ export default function SingIn(){
                     <Input type='password' placeholder="Sua Senha" required value={formData.password} onChange={(e)=>{handleFormEdit(e,'password')}}></Input>
                     <Button>Entrar</Button>
                     {error && <p>{error}</p>}        
-                    <Link href="/login" className={StyleCard.link}>Já possui uma conta?</Link>
+                    <Link href="/login" className={StyleCard.link}>Já possui uma conta? Clique Aqui!</Link>
                 </form>
             </LoginCard>
         </div>

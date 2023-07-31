@@ -38,6 +38,50 @@
 
     
 }
+
+.footer{
+    height: 50px;
+    padding: 50px;
+}
+
+/*Animation*/
+.launch{
+    transition: transform 0.3s;
+}
+.launch:hover{
+    transform: scale(1.05);
+}
+
+.login{
+    transition: transform 0.3s;
+}
+.login:hover{
+    transform: scale(1.05);
+}
+
+.singin{
+    transition: transform 0.3s;
+}
+.singin:hover{
+    transform: scale(1.05);
+}
+
+.report{
+    transition: transform 0.3s;
+}
+.report:hover{
+    transform: scale(1.05);
+}
+
+.box{
+    transition: transform 0.3s;
+}
+.box:hover{
+    transform: scale(1.05);
+}
+
+/*Space*/
+
 .block01{
     margin: 0px 0px 0px 20px;
 }
@@ -50,3 +94,23 @@
     margin: 0px 20px 0px 20px;
 }
 
+
+
+@media (max-width: 800px) {
+    
+    .block03, .block01, .block02{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .launch,.singin,.login,.report, .box{
+        width: 100%;
+        height: 20rem;
+        margin-bottom: 20px;
+    }
+
+    .link{
+        margin-left: 20px;
+        width: 80%;
+    }
+}
