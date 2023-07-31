@@ -31,6 +31,7 @@ a {
   --backgroudColorTertiary: #1FBF75;
   --backgroudColorQuartenary: #18D6B3;
   --backgroudColorQuintenary: #16BBCC;
+  --backgroudColorSextenary: rgba(215, 3, 3, 0.895);
 }
 
 @font-face {

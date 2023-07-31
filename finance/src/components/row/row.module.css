@@ -4,3 +4,30 @@
     align-items: center;
     justify-content: center;
 }
+
+.buttonAdd{
+    background-color: var(--backgroudColorTertiary);
+}
+
+.buttonRemove{
+    background-color: var(--backgroudColorSextenary);
+    
+}
+
+.buttonAdd, .buttonRemove{
+    color: var(  --colorFontPrincipal);
+    font-family: "Poppins";
+    width: 40px;
+    height: 40px;
+    font-size: 1.6rem;
+    border-radius: 50px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
