@@ -1,0 +1,25 @@
+import Container from "../src/components/container/Container.js"
+import TextBox from "../src/components/textBox/TextBox.js"
+import Style from "../styles/index.module.css"
+
+export default function Home() {
+  return (
+    <div className={Style.background}>
+      
+
+      <Container>
+        <div className={Style.block01}>
+          <TextBox color={Style.launch} title="Lançamentos" paragraph="Digite suas receitas e despesas diárias, semanais e mensais"></TextBox>
+          <TextBox color={Style.box} title="Caixinha" paragraph="Crie caixas para organizar suas econômias ou investimentos"></TextBox>
+        </div>
+        <div className={Style.block02}>
+          <TextBox color={Style.report} title="Relatórios" paragraph="Analise suas despesas e receitas no período necessário"></TextBox>
+        </div>
+        <div className={Style.block03}>
+          <TextBox color={Style.login} title="Entrar" paragraph="Clicando aqui você poderá acessar a plataforma"></TextBox>
+          <TextBox color={Style.singin} title="Cadastrar-se" paragraph="Ainda não possui uma conta? Clique aqui e cadastre-se é 100% gratuito"></TextBox>
+        </div>
+      </Container>
+    </div>
+  )
+}

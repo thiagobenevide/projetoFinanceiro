@@ -1,0 +1,10 @@
+.title{
+    color: var(--colorFontPrincipal);
+    font-family: "Poppins";
+    font-size: 1.6rem;
+}
+.paragraph{
+    color: var(--colorFontPrincipal);
+    font-family: "Poppins";
+    font-size: 1.2rem;
+}

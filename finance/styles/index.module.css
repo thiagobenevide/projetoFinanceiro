@@ -1,0 +1,45 @@
+.background{
+    background-color: var(--backgroudColorPrincipal);
+    height: 100vh;
+}
+
+.launch, .singin{
+    background-color: var( --backgroudColorTertiary);
+    border-radius: 20px;
+    width: 28rem;
+    height: 20rem; 
+    
+    padding: 20px;
+}
+
+.box, .login{
+    background-color: var( --backgroudColorQuartenary);
+    border-radius: 20px;
+    width: 28rem;
+    height: 20rem;
+    padding: 20px;
+    
+}
+.launch, .login{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.report{
+    background-color: var(--backgroudColorSecondary);
+    border-radius: 20px;
+    width: 28rem;
+    padding: 20px;
+    margin-top: 20px;
+    height: 41rem;
+
+    
+}
+.block01 .block03{
+    
+}
+
+.block02{
+    height: 100%;
+}
+

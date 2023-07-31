@@ -1,0 +1,34 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  
+}
+
+:root{
+  --colorFontPrincipal: #fff;
+  --colorFontSecundary: #18D6B3;
+  --colorFontLigth: #8C8C8C;
+  --backgroudColorPrincipal: #101923;
+  --backgroudColorSecondary: #1A2736;
+  --backgroudColorTertiary: #1FBF75;
+  --backgroudColorQuartenary: #18D6B3;
+  --backgroudColorQuintenary: #16BBCC;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins-Bold.ttf);
+  src: url(../fonts/Poppins-Light.ttf);
+  src: url(../fonts/Poppins-Regular.ttf);
+}
